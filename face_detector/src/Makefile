@@ -89,6 +89,7 @@ clean:
 
 install: build
 	mkdir -p ../lib
+	mkdir -p ../include
 	$(CP) libobject.* ../lib
 	$(CP) ./*.hpp ../include
 	$(CP) ./*.h ../include
